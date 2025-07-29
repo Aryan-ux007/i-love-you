@@ -12,7 +12,7 @@ canvas {
   background: #111;
 }
 
-#valentinesButton {
+#sorryButton {
   display: none;
   text-decoration: none;
   position: absolute;
@@ -30,12 +30,12 @@ canvas {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-#valentinesButton:hover {
+#sorryButton:hover {
   background-color: #fefefe;
   color: rgb(0, 86, 245);
 }
 
-#valentinesButton a {
+#sorryButton a {
   text-decoration: none;
   color: red;
 }
