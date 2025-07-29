@@ -53,7 +53,7 @@ function updateStars() {
   }
 }
 
-const button = document.getElementById("valentinesButton");
+const button = document.getElementById("sorryButton");
 
 button.addEventListener("click", () => {
   if (button.textContent === "Click Me! ❤") {
@@ -306,7 +306,7 @@ function drawText() {
   if (frameNumber >= 3600 && frameNumber < 99999) {
     context.fillStyle = `rgba(255, 255, 255, ${thirdOpacity})`;
     context.fillText(
-      "Will You Be Mine?",
+      "Will You Forgive Me?",
       canvas.width / 2,
       canvas.height / 2 + 120
     );
