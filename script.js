@@ -1,4 +1,13 @@
-var canvas = document.getElementById("starfield");
+
+        
+    
+      
+      
+        
+      
+
+  
+     var canvas = document.getElementById("starfield");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
@@ -306,7 +315,7 @@ function drawText() {
   if (frameNumber >= 3600 && frameNumber < 99999) {
     context.fillStyle = `rgba(255, 255, 255, ${thirdOpacity})`;
     context.fillText(
-      "Will You Forgive Me?",
+      "Will You forgive me?",
       canvas.width / 2,
       canvas.height / 2 + 120
     );
